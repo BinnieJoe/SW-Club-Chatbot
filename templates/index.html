@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>
+                Software&Entrepreneurship Club
+            </title>
+        
+        <!-- Google Fonts -->
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Cardo:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+        
+        <!-- Vendor CSS Files -->
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="{{url_for('static', filename = 'style.css')}}">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <link rel="icon" icon="image/x-icon" href="{{ url_for('static', filename = 'images/Endicott_College_Logo.jpg') }}">
+        <script src="{{ url_for('static', filename = 'index.js') }}"></script>
+    </head>
+
+    <body>
+        <header id="header" class="header d-flex align-items-center fixed-top">
+            <div class="container-fluid d-flex align-items-center justify-content-between">
+                <i class="bi bi-camera"></i>
+        <nav id="navbar" class="navbar">
+                <ul>
+                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">What's in board</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">How we work</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Meatings</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">What we have built</a></li>  
+                    <li class="nav-item"><a class="nav-link" href="#">Learning roadmap</a></li>  
+                </ul>
+        </nav>
+        <div class="header-social-links">
+            <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+            <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
+          </div>
+          <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+          <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+        </div>
+    </div>
+      </header>
+
+        <section id="hero" class="hero d-flex flex-column justify-content-center align-items-center" data-aos="fade" data-aos-delay="1500">
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-lg-6 text-center">
+                  <h2>Where <span>Doers</span> and Professional work ethic comes together</h2>
+                  <!-- <p>idk what to write</p> -->
+                   <a href="contact.html" type="_blank" class="btn-get-started">Contact</a>
+                </div>
+              </div>
+            </div>
+          </section>
+
+            <div class="container">
+            <section id="about">
+                <h2>About Us</h2>
+                <div class="about-container">
+                    <div style="margin-right: 10px">
+                        <p style="margin-bottom: 0px; text-align: left;">
+                            Our club was founded in August 2022 with 
+                            the aim of helping students, even those 
+                            without prior skills in programming, research, 
+                            and entrepreneurship, to learn and enjoy 
+                            these areas. We run under the AIEP - Active 
+                            Interactive English Learning Program, which 
+                            supports freshmen students in improving their 
+                            English language skills through practice and networking.
+                        </p>
+                    </div>
+
+                    <div style="width: 60%">
+                        <b>Location:</b> TBA <br>
+                        <b>Time:</b> 2:00~3:00PM (FRIDAY)
+                    </div>
+                </div>
+            </section>
+
+            <section id="projects">
+                <h2>Our projects</h2>
+                <div class="project-container">
+                    <div class="project-text">
+                        <dl class="list-unstyled">
+                            <dt>Developer:</dt>
+                                <dd>Jason Jeovanka</dd>
+                            <dt>About:</dt>
+                                <dd>Woosong Survivor</dd>
+                                <dd>
+                                    The Woosong Survivor game sets on a university area. 
+                                    The user has to protect the entire Woosong building from the various monsters. 
+                                    The longer he survives, the more difficult it becomes. It's all about quick thinking, 
+                                    resourcefulness, and outsmarting your opponents in a constantly changing environment. 
+                                    Be the hero to save the university!
+                                </dd>
+                                <a href="https://games.gdevelop-app.com/game-3b2a67f7-24d9-435d-869f-5c4ff2082e2c/index.html" style="text-decoration: none;"><dt>Play Here</dt></a> 
+                        </dl>
+                    </div>
+                    <div class="project-video">
+                        <iframe width="410" height="240" src="https://www.youtube.com/embed/PFL25KhDmSw" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+
+                <div class="project-container">
+                    <div class="project-video">
+                        <iframe width="410" height="240" src="https://www.youtube.com/embed/VwedcCuFW-M" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <div class="project-text">
+                        <dl class="list-unstyled">
+                            <dt>Developer:</dt>
+                                <dd>Alekshi</dd>
+                            <dt>About:</dt>
+                                <dd>12 Labors Of Hercules</dd>
+                                <dd>
+                                    Students of the AI & big data department study 
+                                    journey while avoiding common obstacles (failing) 
+                                    until graduation day. As the journey gradually increases 
+                                    in complexity, student easily encounters more and more 
+                                    obstacles. However, before a student runs out of motivation 
+                                    they attentively receive support and consultation from our 
+                                    professors and counselors throughout the year.
+                                </dd>
+                                <a href="https://games.gdevelop-app.com/game-3b2a67f7-24d9-435d-869f-5c4ff2082e2c/index.html" style="text-decoration: none;"><dt>Play Here</dt></a>
+                        </dl>
+                    </div>
+                </div> 
+
+                <div class="project-container">
+                    <div class="project-text">
+                        <dl class="list-unstyled">
+                            <dt>Developer:</dt>
+                                <dd>Heang Seavleu</dd>
+                            <dt>About:</dt>
+                                <dd>w-haksen is a platformer-engine-based game.</dd>
+                                <dd>
+                                    Students of the AI & big data department study 
+                                    journey while avoiding common obstacles (failing) 
+                                    until graduation day. As the journey gradually increases 
+                                    in complexity, student easily encounters more and more 
+                                    obstacles. However, before a student runs out of motivation 
+                                    they attentively receive support and consultation from our 
+                                    professors and counselors throughout the year.
+                                </dd>
+                                <a href="https://games.gdevelop-app.com/game-3b2a67f7-24d9-435d-869f-5c4ff2082e2c/index.html" style="text-decoration: none;"><dt>Play Here</dt></a>
+                        </dl>
+                    </div>
+                    <div class="project-video">
+                        <iframe width="410" height="240" src="https://www.youtube.com/embed/VwedcCuFW-M" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </section>
+
+            <section id="events">
+                <h2>Upcoming Events</h2>
+                <h4 style="text-align: center;">AIEP Club Festival</h4>
+                <div class="event-container">
+                    <div style="margin-right: 20px">
+                        <img src="{{url_for('static', filename = 'images/Festival.jpg')}}" alt="Festival.jpg" height="400px" width="350px">
+                    </div>
+                    <div>
+                        <div>
+                            <p>The festival will take place on November 23 from 4pm to 7pm. Our club will present 2 new games: Woosong Survivor and Impossible Tic Tac Toe. Come and do your best to win <b>a secret prize!</b></p>
+                            <img src="{{url_for('static', filename = 'images/Jason_Game.jpg')}}" alt="Game1.jpg" class="image2" style="margin-right: 40px; margin-left: 25px">
+                            <img src="{{url_for('static', filename = 'images/JohnPaul_Game.jpg')}}" alt="Game2.jpg" class="image2"style="margin-right: 25px">
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <footer class="footer bg-dark text-light py-4" id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2">
+                        <h3>Follow Us</h3>
+                        <ul class="list-unstyled">
+                            <li><a href="#" class="text-light"><i class="fab fa-facebook"></i></a></li>
+                            <li><a href="#" class="text-light"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="https://www.instagram.com/software_entrepreneurship_club/" class="text-light" title="@software_entrepreneurship_club" target="_blank"><i class="fab fa-instagram">Our Instagram</i></a></li>
+                            <li><a href="#" class="text-light"><i class="fab fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <h3>Contact Us</h3>
+                        <p>If you have any questions or would like to get in touch with us, feel free to email us at <a href="mailto:softwareentrepreneurshipclub@gmail.com" class="text-light">softwareentrepreneurshipclub@gmail.com</a>.</p>
+                    </div>  
+                </div>
+            </div>
+        </footer>        
+        
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"> </script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"> </script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"> </script>
+    </body>
+</html>
