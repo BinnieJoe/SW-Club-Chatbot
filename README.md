@@ -30,7 +30,7 @@ conda create -n joe python=3.9
 ```
 
 ```
-git clone https://github.com/ultralytics/yolov5
+git clone https://github.com/BinnieJoe/SW-Club-Chatbot.git
 ```
 
 ```
