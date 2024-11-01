@@ -8,13 +8,9 @@ Through this project, I was able to acquire important skills in web development 
 ## Creating a requirements.txt File
 
 ### Install Required Packages
-- PyTorch (torch)
-- Torchvision (torchvision)
-- Numpy (numpy)
-- Matplotlib (matplotlib)
-- Pillow (Pillow)
-- Pandas (pandas)
-- OpenCV (opencv-python)
+- Flask
+- flask-sock
+- openai
 
 ### Generate requirements.txt
 ```
