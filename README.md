@@ -5,6 +5,13 @@ The main goal of the project was to add a chatbot function to the website, allow
 
 Through this project, I was able to acquire important skills in web development and chatbot integration, and it remains a project with significant potential for further development.
 
+## Skills
+
+- **Flask**: Used to build a web server that processes questions input by users in the chatbot search box and returns appropriate responses, based on the Python-based micro web framework.
+- **flask-sock**: Supports real-time communication through WebSockets, allowing user queries entered in the search box to be immediately sent to the server for quick chatbot responses.
+- **OpenAI API**: Calls OpenAI's natural language processing model to generate answers to user-input questions, creating appropriate responses based on the content entered in the search box and returning them to the client.
+- **JavaScript**: Implements actions such as handling button click events and resetting user input fields, providing functionality to clear the chatbot's conversation history or remove input content when the reset button is clicked.
+
 ## Creating a requirements.txt File
 
 ### Install Required Packages
